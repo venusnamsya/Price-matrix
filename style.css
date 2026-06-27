@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 70rem;
+    margin: auto;
+    min-height: 100vh;
+}
+.grid {
+    display: flex;
+    gap: 2em;
+}
+article {
+    width: 50%;
+    padding: 1em;
+    margin: 10em 0;
+    border: 2px solid gold;
+}
+footer {
+    text-decoration: none;
+    color:black;
+}
+.price-tag > span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+h2 + div {
+    color: grey;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
+.features li:nth-child(even) {
+    background-color: lightgray;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1em;
+}
+footer {
+    margin-top: 2em;
+    padding: 1em;
+}
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
